@@ -1,19 +1,19 @@
-### Execution Github Backup with nfs
+## Execution Github Backup with nfs
 
-- prepare scripts
+- **prepare scripts**
 ```sh
-vim /var/opt/git-backup.sh             #add backup bash-script from 
+vim /var/opt/git-backup.sh             #add backup bash-script from https://github.com/saifulislam88/scripts/blob/main/gitlab-backup/gitlab-backup.sh
 ```
 ```sh
 chmod +x /var/opt/git-backup.sh
 ```
-- nfs mount
+- **nfs mount**
 
 ```sh
 mount -t nfs 10.192.192.200:/github-backup /var/opt/gitlab/backups
 ```
 
-- cron setup for backup script execution
+- **cron setup for backup script execution**
 ```sh
 crontab  -e
 ```
