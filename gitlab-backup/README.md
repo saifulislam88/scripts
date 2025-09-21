@@ -2,7 +2,9 @@
 
 - prepare scripts
 ```sh
-vim /var/opt/git-backup.sh
+vim /var/opt/git-backup.sh             #add backup bash-script from 
+```
+```sh
 chmod +x /var/opt/git-backup.sh
 ```
 - nfs mount
