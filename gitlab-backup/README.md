@@ -21,6 +21,7 @@ mount -t nfs 10.192.192.200:/github-backup /var/opt/gitlab/backups
 crontab  -e
 ```
 
+**add schedule line or modify**
 ```sh
 01 00 * * * /var/opt/git-backup.sh
 ```
