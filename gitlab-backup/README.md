@@ -17,7 +17,7 @@ mount -t nfs 10.192.192.200:/github-backup /var/opt/gitlab/backups
 ```
 
 - **cron setup for backup script execution**\
-`crontab  -e`
+```crontab  -e`
 ```sh
 01 00 * * * /var/opt/git-backup.sh
 ```
