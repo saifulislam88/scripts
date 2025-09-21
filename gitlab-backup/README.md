@@ -15,9 +15,13 @@ chmod +x /var/opt/git-backup.sh
 ```sh
 mount -t nfs 10.192.192.200:/github-backup /var/opt/gitlab/backups
 ```
+- **Cron setup for backup script execution**
 
-- **cron setup for backup script execution**\
-```crontab  -e`
+Edit crontab:
 ```sh
+crontab -e
+
+Add the following line (runs every day at 00:01):
+
 01 00 * * * /var/opt/git-backup.sh
 ```
