@@ -21,7 +21,6 @@ Edit crontab:
 ```sh
 crontab -e
 
-Add the following line (runs every day at 00:01):
-
+# Add the following line (runs every day at 00:01):
 01 00 * * * /var/opt/git-backup.sh
 ```
