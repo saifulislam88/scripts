@@ -1,6 +1,6 @@
 ## Execution Github Backup with nfs
 
-- **prepare scripts | add following backup script here**\
+- **prepare scripts | add following backup script from below link**\
 https://github.com/saifulislam88/scripts/blob/main/gitlab-backup/gitlab-backup.sh
 
 ```sh 
