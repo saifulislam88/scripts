@@ -1,8 +1,9 @@
 ## Execution Github Backup with nfs
 
 - **prepare scripts**
+https://github.com/saifulislam88/scripts/blob/main/gitlab-backup/gitlab-backup.sh
 ```sh
-vim /var/opt/git-backup.sh             #add backup bash-script from https://github.com/saifulislam88/scripts/blob/main/gitlab-backup/gitlab-backup.sh
+vim /var/opt/git-backup.sh             #add backup bash-script here.
 ```
 ```sh
 chmod +x /var/opt/git-backup.sh
