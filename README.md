@@ -1,1 +1,1 @@
-### Shell-helpers | Bash scripts | Production-grade Use cases & Implementations
+### Shell-helpers | Bash scripts | Implemented in production systems and servers
