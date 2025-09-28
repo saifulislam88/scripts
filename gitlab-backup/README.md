@@ -14,6 +14,8 @@ chmod +x /var/opt/git-backup.sh
 
 ```sh
 mount -t nfs 10.192.192.200:/github-backup /var/opt/gitlab/backups
+chown -R git:git /var/opt/gitlab/backups
+chmod 700 /var/opt/gitlab/backups
 ```
 - **Cron setup for backup script execution**
 
